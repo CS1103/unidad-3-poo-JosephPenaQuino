@@ -20,3 +20,19 @@ bool double_equals(double a, double b, double epsilon = 0.001)
 {
     return std::abs(a - b) < epsilon;
 }
+
+Position::Position(int _x, int _y)
+{
+    x = _x;
+    y = _y;
+}
+
+inline bool Position::operator==(Position &other) const
+{
+    return x == other.x && y == other.y;
+}
+
+//bool UTEC::Position::operator == (const Position &pos1, const Position &pos2)
+//{
+//    return pos1.x == pos2.x && pos1.y == pos2.y;
+//}

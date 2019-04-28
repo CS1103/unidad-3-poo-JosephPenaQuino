@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-J
 CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/all:
 	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/depend
 	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target unidad_3_poo_JosephPenaQuino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles --progress-num=3,4,5,6,7 "Built target unidad_3_poo_JosephPenaQuino"
 .PHONY : CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/all
 
 # Include target in all.
@@ -98,6 +98,43 @@ CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Test.dir
+
+# All Build rule for target.
+CMakeFiles/Test.dir/all:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/depend
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Test"
+.PHONY : CMakeFiles/Test.dir/all
+
+# Include target in all.
+all: CMakeFiles/Test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Test.dir/rule
+
+# Convenience name for target.
+Test: CMakeFiles/Test.dir/rule
+
+.PHONY : Test
+
+# clean rule for target.
+CMakeFiles/Test.dir/clean:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/clean
+.PHONY : CMakeFiles/Test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Test.dir/clean
 
 .PHONY : clean
 

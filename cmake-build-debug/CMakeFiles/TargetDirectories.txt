@@ -1,3 +1,4 @@
 /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles/unidad_3_poo_JosephPenaQuino.dir
 /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles/unidad_3_poo_JosephPenaQuino.dir
+/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles/Test.dir

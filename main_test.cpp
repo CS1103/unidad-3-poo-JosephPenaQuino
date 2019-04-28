@@ -48,22 +48,19 @@ SCENARIO("Simulator Testing")
             {
                 Position pos_4(32, 12);
                 double potential_1 = test_simulator.get_potential_at(pos_4);
-                std::cout << "Potential 1" << potential_1 << std::endl;
-//                REQUIRE(potential_1 == 0);
+                REQUIRE(double_equals(potential_1, 2831144079.06138, 0.0001));
             }
             THEN("Potential at (636, 149) is ...")
             {
                 Position pos_5(636, 149);
                 double potential_2 = test_simulator.get_potential_at(pos_5);
-                std::cout << "Potential 2" << potential_2 << std::endl;
-//                REQUIRE(potential_2 == 0);
+                REQUIRE(double_equals(potential_2, 865883978.37942, 0.0001));
             }
             THEN("Potential at (999, 999) is ...")
             {
                 Position pos_6(999, 999);
                 double potential_3 = test_simulator.get_potential_at(pos_6);
-                std::cout << "Potential 3" << potential_3 << std::endl;
-//                REQUIRE(potential_3 == 0);
+                REQUIRE(double_equals(potential_3, 678513939.7656, 0.0001));
             }
         }
     }

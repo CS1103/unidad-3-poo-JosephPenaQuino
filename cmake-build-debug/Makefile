@@ -123,6 +123,19 @@ unidad_3_poo_JosephPenaQuino/fast:
 	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build
 .PHONY : unidad_3_poo_JosephPenaQuino/fast
 
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
 Charge.o: Charge.cpp.o
 
 .PHONY : Charge.o
@@ -231,6 +244,33 @@ main_test.cpp.s:
 	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.s
 .PHONY : main_test.cpp.s
 
+test.o: test.cpp.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.cpp.o:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.cpp.o
+.PHONY : test.cpp.o
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -238,8 +278,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... unidad_3_poo_JosephPenaQuino"
 	@echo "... edit_cache"
+	@echo "... unidad_3_poo_JosephPenaQuino"
+	@echo "... Test"
 	@echo "... Charge.o"
 	@echo "... Charge.i"
 	@echo "... Charge.s"
@@ -252,6 +293,9 @@ help:
 	@echo "... main_test.o"
 	@echo "... main_test.i"
 	@echo "... main_test.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 
