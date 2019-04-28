@@ -10,8 +10,12 @@ void Simulator::insert_charge(Charge new_charge)
 
 double Simulator::get_potential_at(Position position)
 {
-
-    return 0;
+    double potential = 0;
+    for (Charge current_charge : list_of_charge)
+    {
+        potential += current_charge.get_potential_on(position);
+    }
+    return potential;
 }
 
 void Simulator::fill_random(int quantity)
@@ -33,12 +37,15 @@ bool Simulator::fit_on_grid(Charge new_charge)
 {
     if (fit_on_rows(new_charge.position.x) && fit_on_columns(new_charge.position.y))
     {
-        for (Charge current_charge : list_of_charge)
-        {
-//            if (current_charge.position == new_charge.position)
-                return false;
-        }
+        return true;
+//        for (Charge current_charge : list_of_charge)
+//        {
+//            bool resp = current_charge.position == new_charge.position;
+//            if (resp)
+//                return false;
+//        }
     }
     else
         return false;
+
 }

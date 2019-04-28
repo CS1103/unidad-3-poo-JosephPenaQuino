@@ -3,7 +3,6 @@
 
 CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o: ../Charge.cpp
 CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o: ../Charge.h
-CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o: ../Simulator.h
 
 CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.o: ../Charge.h
 CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.o: ../Simulator.cpp

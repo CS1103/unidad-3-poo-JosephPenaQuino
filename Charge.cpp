@@ -27,7 +27,12 @@ Position::Position(int _x, int _y)
     y = _y;
 }
 
-bool Position::operator == (const Position &pos1, const Position &pos2)
+inline bool Position::operator==(Position &other) const
 {
-    return pos1.x == pos2.x && pos1.y == pos2.y;
+    return x == other.x && y == other.y;
 }
+
+//bool UTEC::Position::operator == (const Position &pos1, const Position &pos2)
+//{
+//    return pos1.x == pos2.x && pos1.y == pos2.y;
+//}
