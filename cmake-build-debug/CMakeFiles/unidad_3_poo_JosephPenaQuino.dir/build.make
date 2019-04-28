@@ -70,17 +70,62 @@ CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/main.cpp -o CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main.cpp.s
 
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/flags.make
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o: ../Charge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o -c /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Charge.cpp
+
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Charge.cpp > CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.i
+
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Charge.cpp -o CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.s
+
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.o: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/flags.make
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.o: ../Simulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.o -c /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Simulator.cpp
+
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Simulator.cpp > CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.i
+
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Simulator.cpp -o CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.s
+
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.o: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/flags.make
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.o: ../main_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.o -c /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/main_test.cpp
+
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/main_test.cpp > CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.i
+
+CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/main_test.cpp -o CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.s
+
 # Object files for target unidad_3_poo_JosephPenaQuino
 unidad_3_poo_JosephPenaQuino_OBJECTS = \
-"CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main.cpp.o"
+"CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main.cpp.o" \
+"CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o" \
+"CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.o" \
+"CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.o"
 
 # External object files for target unidad_3_poo_JosephPenaQuino
 unidad_3_poo_JosephPenaQuino_EXTERNAL_OBJECTS =
 
 unidad_3_poo_JosephPenaQuino: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main.cpp.o
+unidad_3_poo_JosephPenaQuino: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o
+unidad_3_poo_JosephPenaQuino: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.o
+unidad_3_poo_JosephPenaQuino: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.o
 unidad_3_poo_JosephPenaQuino: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make
 unidad_3_poo_JosephPenaQuino: CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable unidad_3_poo_JosephPenaQuino"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable unidad_3_poo_JosephPenaQuino"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

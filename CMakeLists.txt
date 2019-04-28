@@ -3,4 +3,4 @@ project(unidad_3_poo_JosephPenaQuino)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(unidad_3_poo_JosephPenaQuino main.cpp)
+add_executable(unidad_3_poo_JosephPenaQuino main.cpp Charge.cpp Charge.h Simulator.cpp Simulator.h main_test.cpp)

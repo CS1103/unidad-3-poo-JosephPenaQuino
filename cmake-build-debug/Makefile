@@ -123,6 +123,60 @@ unidad_3_poo_JosephPenaQuino/fast:
 	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build
 .PHONY : unidad_3_poo_JosephPenaQuino/fast
 
+Charge.o: Charge.cpp.o
+
+.PHONY : Charge.o
+
+# target to build an object file
+Charge.cpp.o:
+	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.o
+.PHONY : Charge.cpp.o
+
+Charge.i: Charge.cpp.i
+
+.PHONY : Charge.i
+
+# target to preprocess a source file
+Charge.cpp.i:
+	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.i
+.PHONY : Charge.cpp.i
+
+Charge.s: Charge.cpp.s
+
+.PHONY : Charge.s
+
+# target to generate assembly for a file
+Charge.cpp.s:
+	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Charge.cpp.s
+.PHONY : Charge.cpp.s
+
+Simulator.o: Simulator.cpp.o
+
+.PHONY : Simulator.o
+
+# target to build an object file
+Simulator.cpp.o:
+	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.o
+.PHONY : Simulator.cpp.o
+
+Simulator.i: Simulator.cpp.i
+
+.PHONY : Simulator.i
+
+# target to preprocess a source file
+Simulator.cpp.i:
+	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.i
+.PHONY : Simulator.cpp.i
+
+Simulator.s: Simulator.cpp.s
+
+.PHONY : Simulator.s
+
+# target to generate assembly for a file
+Simulator.cpp.s:
+	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/Simulator.cpp.s
+.PHONY : Simulator.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main_test.o: main_test.cpp.o
+
+.PHONY : main_test.o
+
+# target to build an object file
+main_test.cpp.o:
+	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.o
+.PHONY : main_test.cpp.o
+
+main_test.i: main_test.cpp.i
+
+.PHONY : main_test.i
+
+# target to preprocess a source file
+main_test.cpp.i:
+	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.i
+.PHONY : main_test.cpp.i
+
+main_test.s: main_test.cpp.s
+
+.PHONY : main_test.s
+
+# target to generate assembly for a file
+main_test.cpp.s:
+	$(MAKE) -f CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/build.make CMakeFiles/unidad_3_poo_JosephPenaQuino.dir/main_test.cpp.s
+.PHONY : main_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... unidad_3_poo_JosephPenaQuino"
 	@echo "... edit_cache"
+	@echo "... Charge.o"
+	@echo "... Charge.i"
+	@echo "... Charge.s"
+	@echo "... Simulator.o"
+	@echo "... Simulator.i"
+	@echo "... Simulator.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main_test.o"
+	@echo "... main_test.i"
+	@echo "... main_test.s"
 .PHONY : help
 
 
