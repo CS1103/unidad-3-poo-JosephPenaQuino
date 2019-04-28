@@ -9,16 +9,17 @@ struct Position
     int x;
     int y;
 
-    Position(int _x, int _y)
-    {
-        x = _x;
-        y = _y;
-    }
+//    Position(int _x, int _y)
+//    {
+//        x = _x;
+//        y = _y;
+//    }
+    Position(int _x, int _y);
+    inline bool operator == (const Position &pos1, const Position &pos2);
 };
 
 class Charge
 {
-
 private:
     const double k = 8.99 * pow(10, 9);
     Position position;
@@ -26,7 +27,6 @@ private:
 
 public:
     friend class Simulator;
-//    friend Simulator::insert_charge(Charge new_charge);
     Charge(Position position, int charge);
     double calculate_distance(Position target);
     double get_potential_on(Position target);

@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Charge.cpp
+Charge.h
+/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Charge.h
+
 /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Charge.h
 cmath
 -
+Simulator.h
+/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Simulator.h
+
+/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Simulator.cpp
+Simulator.h
+/home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Simulator.h
 
 /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Simulator.h
 Charge.h
@@ -473,4 +483,6 @@ Simulator.h
 /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Simulator.h
 Charge.h
 /home/joseph/Documents/s2k191/POO2/Assignments/unidad-3-poo-JosephPenaQuino/Charge.h
+iostream
+-
 
